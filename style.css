@@ -32,3 +32,17 @@ a{color:inherit;text-decoration:none}
 @media(max-width:520px){.container,.nav,.hero-inner{width:min(100% - 30px,1120px)}.nav-cta{display:none}.hero h1{font-size:46px}.hero-visual{height:260px}.card-one{right:0}.card-two{left:0}.card-three{right:20px}.hero-stack{flex-wrap:wrap}.contact-actions{flex-wrap:wrap}}
 
 .experience-stack{display:inline-flex;flex-wrap:wrap;gap:7px;margin:2px 0 13px;color:#8390a7;font-size:10px;letter-spacing:.03em}.experience-stack::before{content:"";display:none}
+
+.hero-profile{position:relative;display:flex;flex-direction:column;gap:14px;max-width:470px;margin-left:auto}
+.experience-highlight{position:relative;overflow:hidden;padding:30px 32px;border:1px solid #33415d;border-radius:16px;background:linear-gradient(145deg,rgba(17,25,43,.96),rgba(10,15,27,.96));box-shadow:0 25px 70px rgba(0,0,0,.24)}
+.experience-highlight:after{content:"";position:absolute;width:180px;height:180px;right:-75px;top:-95px;border-radius:50%;background:rgba(70,215,255,.09);filter:blur(3px)}
+.experience-highlight span{display:block;font-size:9px;letter-spacing:.17em;color:#8190aa;font-weight:700;margin-bottom:5px}
+.experience-highlight strong{display:block;font-family:"Space Grotesk";font-size:92px;line-height:.9;letter-spacing:-.07em;background:linear-gradient(120deg,#fff,#70cfff);background-clip:text;-webkit-background-clip:text;color:transparent}
+.experience-highlight b{display:block;font-size:11px;letter-spacing:.18em;color:#8da0c0;margin-top:5px}
+.experience-highlight p{max-width:340px;color:#8f9bb0;font-size:12px;line-height:1.55;margin:17px 0 0}
+.tech-panel{border:1px solid #242f44;border-radius:16px;background:rgba(13,18,32,.92);padding:21px 23px}
+.tech-panel-title{font-size:9px;letter-spacing:.16em;color:#71809a;font-weight:700;margin-bottom:15px}
+.tech-row{display:flex;justify-content:space-between;gap:20px;padding:11px 0;border-top:1px solid #202a3d;font-size:11px}
+.tech-row span{color:#697890;white-space:nowrap}
+.tech-row strong{text-align:right;color:#d4dbea;font-weight:600}
+@media(max-width:850px){.hero-profile{max-width:none;margin:0}.experience-highlight strong{font-size:76px}}
