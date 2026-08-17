@@ -37,7 +37,7 @@ a{color:inherit;text-decoration:none}
 .experience-highlight{position:relative;overflow:hidden;padding:30px 32px;border:1px solid #33415d;border-radius:16px;background:linear-gradient(145deg,rgba(17,25,43,.96),rgba(10,15,27,.96));box-shadow:0 25px 70px rgba(0,0,0,.24)}
 .experience-highlight:after{content:"";position:absolute;width:180px;height:180px;right:-75px;top:-95px;border-radius:50%;background:rgba(70,215,255,.09);filter:blur(3px)}
 .experience-highlight span{display:block;font-size:9px;letter-spacing:.17em;color:#8190aa;font-weight:700;margin-bottom:5px}
-.experience-highlight strong{display:block;font-family:"Space Grotesk";font-size:92px;line-height:.9;letter-spacing:-.07em;background:linear-gradient(120deg,#fff,#70cfff);background-clip:text;-webkit-background-clip:text;color:transparent}
+.experience-highlight strong{display:block;font-family:"Space Grotesk";font-size:45px;line-height:.9;letter-spacing:-.07em;background:linear-gradient(120deg,#fff,#70cfff);background-clip:text;-webkit-background-clip:text;color:transparent}
 .experience-highlight b{display:block;font-size:11px;letter-spacing:.18em;color:#8da0c0;margin-top:5px}
 .experience-highlight p{max-width:340px;color:#8f9bb0;font-size:12px;line-height:1.55;margin:17px 0 0}
 .tech-panel{border:1px solid #242f44;border-radius:16px;background:rgba(13,18,32,.92);padding:21px 23px}
